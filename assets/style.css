@@ -54,6 +54,7 @@ nav a {
     font-size: 0.95rem;
     letter-spacing: 0.5px;
     padding: 5px 0;
+    border-bottom: 2px solid transparent;
 }
 
 nav a:hover,
@@ -81,7 +82,7 @@ main {
 
 .profile-photo {
     width: 100%;
-    max-width: 280px;
+    max-width: 350px;
     border-radius: 4px;
 }
 
