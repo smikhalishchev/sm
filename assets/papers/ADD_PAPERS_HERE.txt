@@ -1,0 +1,13 @@
+ADD YOUR PAPER PDFs HERE
+
+The research page links to these files:
+- inattentionsimplicityreluctance.pdf
+- etf.pdf  
+- Quotas.pdf
+
+Download them from your WordPress site:
+- http://mikhalishchev.online/wp-content/uploads/2024/08/inattentionsimplicityreluctance.pdf
+- http://mikhalishchev.online/wp-content/uploads/2022/11/etf.pdf
+- http://mikhalishchev.online/wp-content/uploads/2021/03/Quotas.pdf
+
+Or update the links in research.html to point to external URLs (like SSRN).

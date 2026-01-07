@@ -1,0 +1,233 @@
+/* Academic Website Stylesheet */
+:root {
+    --primary-color: #2c3e50;
+    --accent-color: #3498db;
+    --text-color: #333;
+    --light-bg: #f8f9fa;
+    --border-color: #e0e0e0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.7;
+    color: var(--text-color);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+}
+
+/* Header & Navigation */
+header {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+header h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 20px;
+}
+
+nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    padding: 5px 0;
+}
+
+nav a:hover,
+nav a.active {
+    color: var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+}
+
+/* Main Content */
+main {
+    min-height: 60vh;
+}
+
+.home-content {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 40px;
+    align-items: start;
+}
+
+.home-text p {
+    margin-bottom: 1rem;
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 4px;
+}
+
+/* Links */
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section Headers */
+h2 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin: 2rem 0 1rem 0;
+    font-weight: normal;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin: 1.5rem 0 0.5rem 0;
+    color: var(--primary-color);
+}
+
+/* Paper entries */
+.paper {
+    margin-bottom: 1.5rem;
+    padding-left: 0;
+}
+
+.paper-title {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.paper-title a {
+    color: var(--accent-color);
+}
+
+.paper-authors {
+    font-style: italic;
+    color: #555;
+}
+
+.paper-status {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 3px;
+}
+
+.paper-award {
+    color: #c0392b;
+    font-size: 0.85rem;
+}
+
+.abstract-toggle {
+    color: var(--accent-color);
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-left: 5px;
+}
+
+.abstract-toggle:hover {
+    text-decoration: underline;
+}
+
+.abstract {
+    display: none;
+    background: var(--light-bg);
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 3px solid var(--accent-color);
+    font-size: 0.95rem;
+}
+
+.abstract.show {
+    display: block;
+}
+
+/* Teaching */
+.teaching-item {
+    margin-bottom: 1rem;
+}
+
+/* About list */
+.about-list {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.about-list li {
+    margin-bottom: 0.8rem;
+}
+
+/* CV Download */
+.cv-download {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.cv-download:hover {
+    background: var(--accent-color);
+    text-decoration: none;
+}
+
+/* Contact */
+.contact-info {
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .home-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .profile-photo {
+        max-width: 200px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    nav {
+        gap: 5px 15px;
+    }
+    
+    header h1 {
+        font-size: 1.6rem;
+    }
+}
