@@ -1,8 +1,0 @@
-ADD YOUR PHOTO HERE
-
-Rename your headshot to "photo.jpg" and replace this file.
-
-The photo from your WordPress site was at:
-http://mikhalishchev.online/wp-content/uploads/2024/09/NSD478-1-1024x868.jpeg
-
-You can download it from there and save it here as photo.jpg
