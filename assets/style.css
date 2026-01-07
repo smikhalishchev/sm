@@ -17,9 +17,9 @@ body {
     font-family: 'Georgia', 'Times New Roman', serif;
     line-height: 1.7;
     color: var(--text-color);
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 60px;
     background: #fff;
 }
 
@@ -82,7 +82,7 @@ main {
 
 .profile-photo {
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     border-radius: 4px;
 }
 
@@ -180,7 +180,7 @@ h3 {
 }
 
 .about-list li {
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.3rem;
 }
 
 /* CV Download */
